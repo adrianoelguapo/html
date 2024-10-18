@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Mazda Type Medium';
+}
+
+/* --- Cabecera y Menú --- */
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #logo{
+    font-size: 45px;
+    padding-left: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+header nav#menu{
+    padding-right: 5%;
+}
+
+header nav#menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav#menu ul li {
+    margin: 0 10px;
+}
+
+header nav#menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.2s ease, font-size 0.2s ease;
+}
+
+header nav#menu a:hover {
+    color: rgb(167, 162, 162);
+    font-size: 22px;
+}
+
+/* --- Contenido página principal --- */
+
+#videoindex{
+    width: 100%;
+    overflow: hidden;
+}
+
+#videoindex video{
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+#bienvenido {
+    padding: 8%;
+}
+
+#bienvenido #titulo_bienvenido{
+    font-size: 35px;
+    text-align: center;
+}
+
+#bienvenido #texto_bienvenido{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#tablaindex{
+    width: 100%;
+}
+
+#tablaindex .imgtable{
+    width: 33.33%;
+    border-collapse: collapse;
+}
+
+#tablaindex .titulotablaindex{
+    text-align: center;
+    font-weight: bold;
+}
+
+#tablaindex .contenidotablaindex{
+    text-align: center;
+}
+
+/* --- Contenido página Newsletter*/
+
+#contenidoform{
+    width: 50%;
+    padding-left: 27.5%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+.cadazonaform{
+    width: 50%;
+    padding-left: 40%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+.cadazonaform h4{
+    font-size: 17.5px;
+    text-decoration: none;
+}
+
+.cadazonaform form input{
+    width: 50%;
+    height: 10%;
+}
+
+#minitextoform{
+    color: #a29f9f;
+    width: 31%;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 37%;
+}
+
+#botonsuscribirseform{
+    margin-top: 5%;
+    width: 8%;
+    padding: 1%;
+    margin-bottom: 3.5%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-left: 48%;
+    transition: color 0.5s ease;
+    font-family: 'Mazda Type Medium';
+}
+
+#botonsuscribirseform:hover{
+    color: rgb(103, 100, 100);
+}
+
+/* --- Contenido sobre la empresa --- */
+
+.cadainfo{
+    padding: 4%;
+}
+
+.cadainfo .tituloinfo{
+    font-size: 35px;
+    text-align: center;
+}
+
+.cadainfo .textoinfo{
+    font-size: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+/* --- Contenido sobre las tecnologías --- */
+
+#tecnologias {
+    width: 100%;
+    height: 100%;
+}
+
+#tecnologias table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tecnologias table td {
+    padding: 10px;
+}
+
+#tecnologias .foto img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 3px;
+}
+
+#tecnologias .texto {
+    justify-content: center;
+    width: 50%;
+    height: 25%;
+}
+
+#tecnologias .texto,
+#tecnologias .foto {
+    vertical-align: middle;
+}
+
+
+/* --- Pie de página --- */
+
+footer {
+    background-color: #a29f9f;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+#menupie ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#menupie a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.2s ease, font-size 0.2s ease;
+}
+
+#menupie a:hover{
+    color: white;
+    font-size: 17px;
+}
